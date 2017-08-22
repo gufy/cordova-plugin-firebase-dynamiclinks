@@ -41,8 +41,7 @@
     } else {
         return [self identity_application:application
                                   openURL:url
-                        sourceApplication:sourceApplication
-                               annotation:annotation];
+                                  options:options];
     }
 }
 
